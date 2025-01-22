@@ -8,9 +8,9 @@ export function Nav() {
     // Define pages with their routes and translations
     const pages = {
         EN: [
-            { name: 'Home', path: '/robotics-testing' },  
-            { name: 'Projects', path: '/robotics-testing/projects' },  
-            { name: 'Contact', path: '/robotics-testing/contact' }     
+            { name: 'Home', path: '/' },
+            { name: 'Projects', path: '/projects' },
+            { name: 'Contact', path: '/contact' }
         ]
     };
 
