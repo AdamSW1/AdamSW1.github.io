@@ -13,6 +13,14 @@ function App() {
         {
           index: true,
           element: <Home />,
+        },
+        {
+          path: 'projects',  // no leading slash
+          element: <div></div>
+        },
+        {
+          path: 'contact',   // no leading slash
+          element: <div></div>
         }
       ]
     }
