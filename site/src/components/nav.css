@@ -4,6 +4,7 @@ nav {
   border-bottom: 2px solid;
   align-self: flex-start;
   width: 100%;
+  background-color:black;
 }
 
 nav ul{
