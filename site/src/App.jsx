@@ -7,7 +7,7 @@ function App() {
 
   const router = createBrowserRouter([
     {
-      path: '/',
+      path: '/robotics-testing',
       element: <RootLayout/>,
       children: [
         {
