@@ -1,21 +1,66 @@
-.projectCard{
+.projectCard {
   display: flex;
-    flex-direction: row;
-    float: right;
-    width:55%;
+  flex-direction: row;
+  float: right;
+  width: 65%;
+  height: 50%;
+  border: 2px solid var(--bgColor--);
+}
+
+.projectCard:hover {
+  background-color: var(--bgColor--);
 }
 
 .projectCard a {
   display: flex;
   flex-direction: row;
   width: 100%;
+  gap: 1em;
 }
 
 .projectCard img {
-  flex: 1;
-  width: 60%;
+  width: 90%;
 }
 
-.projectInfo{
+.projectImage {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-basis: 40%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 
+.projectInfo {
+  display: flex;
+  flex-basis: 60%;
+  flex-direction: column;
+  color: white
+}
+
+.projectDetails {
+  margin: unset;
+  font-weight: 400;
+}
+
+.projectName {
+  margin: 0.1em;
+}
+
+.projectLanguages {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2em;
+}
+
+.projectLanguages h4 {
+  margin: unset;
+  border: 2px solid var(--bgColor--);
+  border-radius: 9999px;
+  font-size: 0.9em;
+  font-weight: 100;
+  padding-left: .5rem;
+  padding-right: .5rem;
 }
