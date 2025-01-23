@@ -10,7 +10,7 @@ export function Featured() {
         <aside id="featuredProjects">
           <Project
             url="http://15.222.62.124"
-            imageUrl="./images/projects/LDD.png"
+            imageUrl="/images/projects/LDD.png"
             name="A competition of services"
             type="Academic Project"
             year="2024"
@@ -20,7 +20,7 @@ export function Featured() {
           />
           <Project
             url="http://dawtrek.crcrobotics.com/"
-            imageUrl="./images/projects/dawtrek.png"
+            imageUrl="/images/projects/dawtrek.png"
             name="DawTrek Website"
             type="Club Project"
             year="2024"
@@ -30,7 +30,7 @@ export function Featured() {
           />
           <Project
             url="https://gitlab.com/csprojects3/winter2023project-solitaire"
-            imageUrl="./images/projects/solitaire.png"
+            imageUrl="/images/projects/solitaire.png"
             name="Solitaire in Java"
             type="Academic Project"
             year="2023"

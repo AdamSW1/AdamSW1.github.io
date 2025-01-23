@@ -17,7 +17,7 @@ export function Home(){
           ensuring everyone has a role and work to do!
         </p>
         <div id="myPhoto">
-            <img src="./images/me.png" alt="A picture of me"/>
+            <img src="/images/me.png" alt="A picture of me"/>
         </div>
         </div>
         <div id="skills">
