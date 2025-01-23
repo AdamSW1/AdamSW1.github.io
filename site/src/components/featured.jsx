@@ -3,8 +3,10 @@ import { Project } from '../components/project';
 export function Featured() {
   return (
     <div id="featuredSection" className="contentBlock">
-      <section className="contentBody">
-        <h1>Featured Projects</h1>
+      <section className="contentBody" id="featuredBody">
+        <aside id="featuredInfo">
+          <h1>Featured Projects</h1>
+        </aside>
         <aside id="featuredProjects">
           <Project
             url="http://15.222.62.124"
