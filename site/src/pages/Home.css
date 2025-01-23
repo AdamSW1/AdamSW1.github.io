@@ -1,0 +1,21 @@
+.contentBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  align-self: center;
+  flex:1
+}
+
+.contentBlock h1 {
+  font-size: 2em;
+}
+
+.contentBody{
+  width: 90%;
+  height:100%
+}
+
+#skills{
+  align-self: flex-start;
+}

@@ -1,0 +1,33 @@
+#featuredBody{
+  display: flex;
+  margin: 5em 0;
+}
+
+#featuredSection {
+  background-color: black;
+  border-top: 2px solid white;
+}
+
+#featuredInfo{
+  flex:1
+}
+
+#featuredInfo h1{
+  margin:unset;
+}
+
+#featuredProjects {
+  display: flex;
+  flex:2;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 1.5em;
+}
+
+#featuredProjects:hover .projectCard {
+  opacity: .5;
+}
+#featuredProjects .projectCard:hover {
+  opacity: 1;
+}
+
