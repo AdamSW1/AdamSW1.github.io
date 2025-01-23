@@ -15,6 +15,15 @@ export function Featured() {
             description="The 2024 website for the CRC robotics website themed around LCARS devices in Star Trek."
             languages={["NODE.JS", "REACT", "CSS"]}
           />
+          <Project
+            url="https://gitlab.com/csprojects3/winter2023project-solitaire"
+            imageUrl="./images/projects/solitaire.png"
+            name="Solitaire in Java"
+            type="Academic Project"
+            year="2023"
+            description="A java console application for playing Solitaire. Made leveraging the concepts of inheritance and OOP principles"
+            languages={["Java"]}
+          />
         </aside>
       </section>
     </div>
