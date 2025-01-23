@@ -1,0 +1,21 @@
+.projectCard{
+  display: flex;
+    flex-direction: row;
+    float: right;
+    width:55%;
+}
+
+.projectCard a {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.projectCard img {
+  flex: 1;
+  width: 60%;
+}
+
+.projectInfo{
+
+}

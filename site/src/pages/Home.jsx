@@ -5,7 +5,7 @@ export function Home(){
   return(
     <>
     <div className="contentBlock">
-      <section>
+      <section className="contentBody">
         <h1>Hello!</h1>
         <p id="aboutme">
           My name is Adam Winter! I&apos;m a 19 year old computer science student currently enrolled 
