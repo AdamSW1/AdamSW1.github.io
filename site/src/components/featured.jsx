@@ -1,5 +1,5 @@
 import './featured.css';
-import { Project } from '../components/project';
+import { ProjectCard } from './projectCard';
 export function Featured() {
   return (
     <div id="featuredSection" className="contentBlock">
@@ -8,7 +8,7 @@ export function Featured() {
           <h1>Featured Projects</h1>
         </aside>
         <aside id="featuredProjects">
-          <Project
+          <ProjectCard
             url="http://15.222.62.124"
             imageUrl="/images/projects/LDD.png"
             name="A competition of services"
@@ -18,7 +18,7 @@ export function Featured() {
                          providers and streaming services. Deployed using AWS"
             languages={["NODE.JS", "REACT", "CSS"]}
           />
-          <Project
+          <ProjectCard
             url="http://dawtrek.crcrobotics.com/"
             imageUrl="/images/projects/dawtrek.png"
             name="DawTrek Website"
@@ -28,7 +28,7 @@ export function Featured() {
                          themed around LCARS devices in Star Trek."
             languages={["NODE.JS", "REACT", "CSS"]}
           />
-          <Project
+          <ProjectCard
             url="https://gitlab.com/csprojects3/winter2023project-solitaire"
             imageUrl="/images/projects/solitaire.png"
             name="Solitaire in Java"

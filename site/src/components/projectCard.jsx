@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
-import './project.css'
-export function Project({ url, imageUrl, name, type, year, description, languages }) {
+import './projectCard.css'
+export function ProjectCard({ url, imageUrl, name, type, year, description, languages }) {
   return (
     <section className="projectCard">
       <a href={url} target="_blank">
