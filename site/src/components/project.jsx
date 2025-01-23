@@ -14,7 +14,7 @@ export function Project({ url, imageUrl, name, type, year, description, language
             {
               languages.map( lang =>{
                 return(
-                  <h4 key="lang">{lang}</h4>
+                  <h4 key={lang}>{lang}</h4>
                 )
               })
             }
