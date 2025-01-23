@@ -4,7 +4,11 @@ nav {
   border-bottom: 2px solid;
   align-self: flex-start;
   width: 100%;
-  background-color:black;
+  background-color:var(--lighterBlack--);
+}
+
+nav-item:hover{
+  color:var(--textColor--);
 }
 
 nav ul{
@@ -19,7 +23,7 @@ nav li{
 }
 
 nav a{
-  color:white;
+  color:var(--textColor--);
 }
 
 nav li:hover{
@@ -31,5 +35,9 @@ nav li:hover{
 }
 
 .active a{
-  color: black;
+  color: var(--lighterBlack--);
+}
+
+.active a:hover{
+  color: var(--lighterBlack--);
 }

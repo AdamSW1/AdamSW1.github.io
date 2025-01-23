@@ -3,10 +3,12 @@
   line-height: 1.5;
   font-weight: 400;
 
-  --bgColor--:#242424;
+  --lightGrayCustom--:#393E41;
+  --lighterBlack--:#1E2019;
+  --textColor--:#D3D0CB;
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: var(--bgColor--);
+  color: var(--textColor--);
+  background-color: var(--lightGrayCustom--);
 }
 
 body {

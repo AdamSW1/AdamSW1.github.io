@@ -3,12 +3,11 @@
   flex-direction: row;
   float: right;
   height: 50%;
-  border: 2px solid var(--bgColor--);
+  border: 2px solid var(--lightGrayCustom--);
 }
 
 .projectCard:hover {
-  background-color: var(--bgColor--);
-  
+  background-color: var(--lightGrayCustom--);
 }
 
 .projectCard a {
@@ -21,10 +20,6 @@
 .projectCard img {
   width: 90%;
   margin: 0.8em;
-}
-
-.projectCard img[alt="DawTrek Website"]{
-  width: 75%;
 }
 
 .projectImage {
@@ -41,7 +36,7 @@
   display: flex;
   flex-basis: 60%;
   flex-direction: column;
-  color: white
+  color: var(--textColor--);
 }
 
 .projectDetails {
@@ -62,7 +57,7 @@
 
 .projectLanguages h4 {
   margin: unset;
-  border: 2px solid var(--bgColor--);
+  border: 2px solid var(--lightGrayCustom--);
   border-radius: 9999px;
   font-size: 0.9em;
   font-weight: 100;
