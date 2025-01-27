@@ -1,12 +1,12 @@
-import { createHashRouter, RouterProvider } from 'react-router-dom';  // Change this line
+import { createHashRouter, RouterProvider } from 'react-router-dom'; 
 import { RootLayout } from './components/RootLayout';
 import { Home } from './pages/Home'
 import './App.css'
 
 function App() {
-  const router = createHashRouter([  // Change this line
+  const router = createHashRouter([  
     {
-      path: '/',  // Change this to root path
+      path: '/',  
       element: <RootLayout/>,
       children: [
         {

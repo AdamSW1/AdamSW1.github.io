@@ -1,16 +1,27 @@
 import './nav.css';
-import { useNavigate, useLocation } from 'react-router-dom';
+import { useLocation, Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export function Nav() {
-  const navigate = useNavigate();
+//   const navigate = useNavigate();
     const location = useLocation();
+
+  useEffect(() => {
+    // Scroll to the element when the component mounts or the hash changes
+    if (location.hash) {
+      const targetElement = document.getElementById(location.hash.replace('#', ''));
+      if (targetElement) {
+        targetElement.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+  }, [location]);
 
     // Define pages with their routes and translations
     const pages = {
         EN: [
-            { name: 'Home', path: '/' },
-            { name: 'Projects', path: '/projects' },
-            { name: 'Contact', path: '/contact' }
+            // { name: 'Home', path: '#' },
+            { name: 'Projects', path: '#featuredSection' },
+            { name: 'Contact', path: '#contactSection' }
         ]
     };
 
@@ -19,9 +30,9 @@ export function Nav() {
         page => page.path === location.pathname
     );
 
-    const handleClick = (e, path) => {
-        navigate(path);
-    };
+    // const handleClick = (e, path) => {
+    //     navigate(path);
+    // };
 
     return (
         <nav>
@@ -30,9 +41,11 @@ export function Nav() {
                     <li
                         key={index}
                         className={`nav-item ${activeIndex === index ? 'active' : ''}`}
-                        onClick={(e) => handleClick(e, item.path)}
+                        // onClick={(e) => handleClick(e, item.path)}
                     >
-                        <a>{item.name}</a>
+                        <Link to={item.path} >
+                            {item.name}
+                        </Link>
                     </li>
                 ))}
             </ul>
