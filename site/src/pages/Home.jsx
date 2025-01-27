@@ -1,4 +1,5 @@
 import "./Home.css";
+import { Contact } from "./contact";
 import { Featured } from "./featured";
 
 export function Home() {
@@ -39,6 +40,7 @@ export function Home() {
         </section>
       </div>
       <Featured />
+      <Contact />
     </>
   );
 }

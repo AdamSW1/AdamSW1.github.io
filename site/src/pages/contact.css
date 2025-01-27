@@ -1,0 +1,35 @@
+#contactBody {
+  display: flex;
+  margin: 5em 0;
+}
+
+#contactInfo {
+  flex: 1;
+}
+
+#contactInfo h1 {
+  margin: unset;
+}
+
+#contactLinks {
+  flex: 1;
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: var(--textColor--);
+}
+
+.contacts img{
+  width: 3em;
+}
+
+.contacts p{
+  margin-left: 1em;
+  font-size: 1rem;
+}
