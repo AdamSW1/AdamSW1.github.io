@@ -26,10 +26,6 @@ nav a{
   color:var(--textColor--);
 }
 
-nav li:hover{
-  cursor:pointer
-}
-
 .active{
   background-color:darkgray;
 }
