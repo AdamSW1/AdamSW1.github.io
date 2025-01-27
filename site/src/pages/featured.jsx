@@ -1,5 +1,5 @@
 import './featured.css';
-import { ProjectCard } from './projectCard';
+import { ProjectCard } from '../components/projectCard';
 export function Featured() {
   return (
     <div id="featuredSection" className="contentBlock">
