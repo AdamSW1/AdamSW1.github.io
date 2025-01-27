@@ -41,6 +41,23 @@ export function Home() {
       </div>
       <Featured />
       <Contact />
+      <footer>
+        <div id="footerIcons">
+        <a href="mailto:adamwintercs@gmail.com" id="Mail" className="contacts">
+              <img src="/images/logos/mail.png" />
+            </a>
+            <a href="https://github.com/AdamSW1" id="GitHub" className="contacts">
+              <img src="/images/logos/github-mark-white.svg" />
+            </a>
+            <a href="https://gitlab.com/AdamSW12" id="GitLab" className="contacts">
+              <img src="/images/logos/gitlab-logo.png" />
+            </a>
+            <a href="https://www.linkedin.com/in/adam-winter-409bab2b1/" id="LinkedIn" className="contacts">
+              <img src="images/logos/In-White-26.png" />
+            </a>
+        </div>
+        <p>Adam Winter</p>
+      </footer>
     </>
   );
 }
