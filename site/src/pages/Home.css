@@ -4,7 +4,8 @@
   align-items: center;
   width: 100%;
   align-self: center;
-  flex:1
+  flex:1;
+  border-top: 2px solid var(--textColor--);
 }
 
 .contentBlock h1 {
@@ -19,15 +20,19 @@
 #fold{
   display: flex;
 }
+#foldLeftSide{
+  flex:1;
+}
 
 #aboutMe{
   flex-basis:60%;
 }
 
+
 #myPhoto{
   display: flex;
   justify-content: center;
-  flex-basis: 30%;
+  flex: 0.5;
 }
 
 #myPhoto img{

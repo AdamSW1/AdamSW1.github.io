@@ -1,7 +1,6 @@
 nav {
   display: flex;
   justify-content: center;
-  border-bottom: 2px solid;
   align-self: flex-start;
   width: 100%;
   background-color:var(--lighterBlack--);
@@ -15,6 +14,7 @@ nav ul{
   display: flex;
   flex-direction: row;
   list-style-type: none;
+  padding:unset;
 }
 
 nav li{
@@ -42,7 +42,7 @@ nav li:hover{
   color: var(--lighterBlack--);
 }
 
-@media(max-width: 500px){
+@media(max-width: 600px){
   nav ul{
     flex-direction:column;
   }

@@ -1,5 +1,5 @@
 import "./Home.css";
-import { Featured } from "../components/featured";
+import { Featured } from "./featured";
 
 export function Home() {
   return (
@@ -11,7 +11,7 @@ export function Home() {
           <div id="fold">
             <section id="foldLeftSide">
               <p id="aboutMe">
-                Hi, I&apos;m a 19 year old computer science student currently
+                Hi! I&apos;m computer science student currently
                 enrolled at Dawson College!
                 <br />
                 I&apos;m currently part of Dawson&apos;s robotics club and am
