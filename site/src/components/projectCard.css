@@ -64,3 +64,24 @@
   padding-left: .5rem;
   padding-right: .5rem;
 }
+
+@media(max-width: 500px){
+  .projectCard a {
+    flex-direction:column
+  }
+
+  .projectImage {
+    flex-basis: 20%;    
+    margin-top: 0.4em;
+  }
+
+  .projectImage img {
+    width: 95%;
+    margin: 0.3em;
+  }
+
+  .projectInfo {
+    flex-basis: 80%;
+    margin: 1em;
+  }
+}

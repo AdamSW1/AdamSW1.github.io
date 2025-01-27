@@ -37,3 +37,9 @@
 #skills{
   align-self: flex-start;
 }
+
+@media(max-width:500px){
+  #fold{
+    flex-direction:column;
+  }
+}

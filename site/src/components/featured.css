@@ -31,3 +31,14 @@
   opacity: 1;
 }
 
+@media(max-width: 500px){
+  #featuredBody {
+    flex-direction:column;
+    margin: 1em 0;
+  }
+
+  #featuredInfo{
+    margin: 1em 0
+  }
+
+}

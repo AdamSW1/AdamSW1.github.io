@@ -41,3 +41,12 @@ nav li:hover{
 .active a:hover{
   color: var(--lighterBlack--);
 }
+
+@media(max-width: 500px){
+  nav ul{
+    flex-direction:column;
+  }
+  nav li{
+    padding: 0.5em 0;
+  }
+}
