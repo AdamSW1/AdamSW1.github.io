@@ -15,6 +15,12 @@
   margin:unset;
 }
 
+#featuredInfo section{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
 #featuredProjects {
   display: flex;
   flex:2;

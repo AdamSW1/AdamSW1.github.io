@@ -5,7 +5,10 @@ export function Featured() {
     <div id="featuredSection" className="contentBlock">
       <section className="contentBody" id="featuredBody">
         <aside id="featuredInfo">
-          <h1>Featured Projects</h1>
+          <section>
+            <h1>Featured Projects</h1>
+            <h3>Some of my top projects</h3>
+          </section>
         </aside>
         <aside id="featuredProjects">
           <ProjectCard
