@@ -12,7 +12,7 @@ export function Featured() {
         </aside>
         <aside id="featuredProjects">
           <ProjectCard
-            url="http://15.222.62.124"
+            url="https://five20-project-aulakh-rossetti-winter.onrender.com/"
             imageUrl="/images/projects/LDD.png"
             name="A competition of services"
             type="Academic Project"
